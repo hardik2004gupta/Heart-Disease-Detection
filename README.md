@@ -7,6 +7,7 @@ This repository contains a machine learning project for predicting the presence 
 -   `Heart_Disease_Detector.ipynb`: The main Jupyter Notebook containing the Python code for data analysis, model training, and prediction.
 -   `heart_disease_data.csv`: The dataset used for training and testing the model.
 -   `Heart_Disease_ML_Analysis_Summary.pdf`: A summary document outlining the project, key findings, and model performance.
+-   `curve.png`: A curve outlining the logistic regression model used in this analysis.
 -   `README.md`: This file, providing an overview of the repository.
 
 ## 📖 Project Overview
@@ -57,6 +58,9 @@ After installing the dependencies, you can run the `Heart_Disease_Detector.ipynb
 ## 📈 Results and Performance
 
 The Logistic Regression model was trained on 80% of the data and tested on the remaining 20%. The model achieved an **accuracy of 85.25%** on the test set.
+
+![Model Performance Curve](curve.png)
+*Figure: Model performance curve (accuracy/loss over epochs)*
 
 ### Key Insights from EDA:
 * The dataset is fairly balanced, with 165 cases of heart disease and 138 healthy cases.
